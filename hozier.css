@@ -1,1 +1,100 @@
+body{
+    background-color: #9bc6e9;
+}
 
+.polaroid {
+  width: 520px;
+  background-color: rgb(236, 215, 177);
+  float: left;
+  border-radius: 50px;
+
+  
+}
+
+img{
+    width: 485px;
+    border-radius: 40px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: rgb(236, 215, 177);
+    
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+@font-face{
+    font-family:"TheSkinny";
+    src: url(TheSkinny.otf);
+}
+
+h2 {
+    font-family: "TheSkinny";
+    font-size: 40px;
+    color: rgb(107, 49, 35);
+    line-height: 0px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(107, 49, 35);
+}
+
+.biography{
+    width: 800px;
+    height: 250px;
+    background-color: rgb(236, 215, 177);
+    position:absolute;
+    left: 600px;
+    border-radius: 50px;
+    font-family: "TheSkinny";
+    text-align:center;
+    font-size: 32px;
+    color: rgb(107, 49, 35);
+    line-height: 50px;
+}
+
+
+.tracklist{
+    width: 800px;
+    height: 1070px;
+    background-color: rgb(236, 215, 177);
+    position:absolute;
+    left: 600px;
+    top: 350px;
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(107, 49, 35);
+    font-family: "TheSkinny";
+    font-size: 32px;
+    line-height: 50px;
+    list-style: inside;
+}
+
+.preview{
+    width: 520px;
+    height:440px;
+    background-color: rgb(236, 215, 177);
+    border-radius: 50px;
+    font-family: "TheSkinny";
+    position:absolute;
+    top:700px;
+    text-align: center;
+}
+
+.funfact{
+    width: 520px;
+    height: 220px;
+    background-color: rgb(236, 215, 177);
+    border-radius:50px;
+    font-family: "TheSkinny";
+    font-size:32px;
+    color:rgb(107, 49, 35);
+    position:absolute;
+    top:1200px;
+    text-align: center;
+    line-height: 50px;
+
+}
